@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="feat_setting_placeholder_url">adresa lista</string>
     <string name="feat_setting_app_version">versiune aplicatie</string>
     <string name="feat_setting_label_subscribe">abonare</string>
     <string name="feat_setting_success_subscribe">abonare reusita</string>
     <string name="feat_setting_failed_malformed_url">link eronat (%s)</string>
     <string name="feat_setting_error_empty_title">nume lista este necompletat</string>
     <string name="feat_setting_placeholder_title">nume lista</string>
+    <string name="feat_setting_placeholder_url">adresa lista</string>
     <string name="feat_setting_label_subscribing">abonare</string>
     <string name="feat_setting_sync_mode_all">toate</string>
     <string name="feat_setting_sync_mode_keep">sari peste favorite</string>
@@ -17,7 +17,9 @@
     <string name="feat_setting_god_mode_description">aranjare ecran cu tastele fizice de volum</string>
     <string name="feat_setting_experimental_mode">mod experimental</string>
     <string name="feat_setting_experimental_mode_description">functionalitati instabile care pot genera erori fatale</string>
+    <string name="feat_setting_label_epg_playlists">EPG List</string>
     <string name="feat_setting_label_hidden_channels">canale ascunse</string>
+    <string name="feat_setting_label_hidden_playlist_groups">hidden playlist categories</string>
     <string name="feat_setting_label_add_playlist">adauga lista</string>
     <string name="feat_setting_label_parse_from_clipboard">incarca din clipboard</string>
     <string name="feat_setting_label_select_from_local_storage">selectie fisier</string>
@@ -28,7 +30,6 @@
     <string name="feat_setting_clip_mode_stretched">tot ecranul</string>
     <string name="feat_setting_auto_refresh_channels">actualizare automata</string>
     <string name="feat_setting_auto_refresh_channels_description">actualizare automata la deschidere lista</string>
-
     <string name="feat_setting_full_info_player">informatii complete</string>
     <string name="feat_setting_full_info_player_description">arata mai multe informatii in player</string>
     <string name="feat_setting_slider">bara de cautare</string>
@@ -44,6 +45,8 @@
     <string name="feat_setting_error_blank_url">link necompletat</string>
     <string name="feat_setting_use_dynamic_colors">culori dinamice</string>
     <string name="feat_setting_use_dynamic_colors_unavailable">disponibil in versiunea Android 12 si peste</string>
+    <string name="feat_setting_colorful_background">colorful background</string>
+    <string name="feat_setting_restore_schemes">restore schemes</string>
     <string name="feat_setting_not_implementation">aceasta optiune nu este disponibila in versiunea curenta</string>
     <string name="feat_setting_zapping_mode">mod navigare canale</string>
     <string name="feat_setting_zapping_mode_description">vizualizare rapida inainte de deschidere canal</string>
@@ -58,30 +61,47 @@
     <string name="feat_setting_reconnect_mode_no">niciodata</string>
     <string name="feat_setting_reconnect_mode_retry">doar la eroare</string>
     <string name="feat_setting_reconnect_mode_reconnect">intotdeauna</string>
-
     <string name="feat_setting_appearance">aspect</string>
     <string name="feat_setting_appearance_hint_edit_color">apasare lunga pentru a modifica culorile</string>
-
     <string name="feat_setting_tunneling">mod tunel</string>
     <string name="feat_setting_tunneling_description">imbunatatire rulare continut 4K/HDR</string>
     <string name="feat_setting_label_backup">copie rezerva</string>
     <string name="feat_setting_label_restore">restaurare</string>
-
     <string name="feat_setting_canvas_dark">intunecat</string>
     <string name="feat_setting_canvas_light">luminat</string>
     <string name="feat_setting_canvas_apply">aplica</string>
     <string name="feat_setting_canvas_reset">anuleaza</string>
-
+    <string name="feat_setting_epg_clock_mode">programme 12h clock mode</string>
     <string name="feat_setting_remote_control">telecomanda</string>
     <string name="feat_setting_remote_control_description">activeaza optiunea de controlare TV</string>
-
     <string name="feat_setting_remote_control_tv_side">telecomanda</string>
     <string name="feat_setting_remote_control_tv_side_description">permite telefonului sa controleze TV-ul</string>
-
     <string name="feat_setting_subscribe_for_tv">pentru TV</string>
-
     <string name="feat_setting_backing_up">salvare toate listele si canalele</string>
     <string name="feat_setting_restoring">restaurare toate listele si canalele</string>
-
     <string name="feat_setting_follow_system_theme">la fel ca tema telefonului</string>
+    <string name="feat_setting_placeholder_basic_url">address</string>
+    <string name="feat_setting_placeholder_username">username</string>
+    <string name="feat_setting_placeholder_password">password</string>
+    <string name="feat_setting_warning_xtream_takes_much_more_time">it may take much more time</string>
+    <string name="feat_setting_back_home">back home</string>
+    <string name="feat_setting_always_replay">always show replay button</string>
+    <string name="feat_setting_player_panel">player panel</string>
+    <string name="feat_setting_player_panel_description">swipe up the player to expand it in portrait mode</string>
+    <string name="feat_setting_cache">cache while playing</string>
+    <string name="feat_setting_cache_description">this option may prevent normal playback</string>
+    <string name="feat_setting_clear_cache">clear cache</string>
+    <string name="feat_setting_paging">paging channels</string>
+    <string name="feat_setting_paging_description">        useful for large amounts of channels,
+        but grouping will be disabled at the same time
+    </string>
+    <string name="feat_setting_source_code">source code</string>
+    <string name="feat_setting_compact_dimension">compact dimension</string>
+    <!-- EPG -->
+    <string name="feat_setting_placeholder_epg_title">epg name</string>
+    <string name="feat_setting_error_empty_epg_title">epg name is empty</string>
+    <string name="feat_setting_error_empty_epg">epg link is empty</string>
+    <string name="feat_setting_placeholder_epg">epg link</string>
+    <string name="feat_setting_epg_added">you can then associate the playlist with the EPG</string>
+    <string name="feat_setting_randomly_in_favourite">play randomly only from favourite</string>
 </resources>
