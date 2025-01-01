@@ -14,7 +14,7 @@ android {
     namespace = "com.m3u.androidApp"
     compileSdk = 34
     defaultConfig {
-        applicationId = "com.m3u.androidApp"
+        applicationId = "com.Vinko.FlexStream"
         minSdk = 26
         targetSdk = 33
         versionCode = 144
